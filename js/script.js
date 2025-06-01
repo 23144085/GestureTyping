@@ -25,6 +25,7 @@ const createGestureRecognizer = async () => {
         baseOptions: {
             modelAssetPath:
                 "./models/gesture_recognizer.task",
+                
             delegate: "GPU"
         },
         runningMode: runningMode,
